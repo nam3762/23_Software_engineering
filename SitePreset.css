@@ -1,0 +1,122 @@
+html{
+    overflow: hidden;
+}
+
+html, body{
+    display: block;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background-color: whitesmoke;
+
+    text-align: center;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+}
+
+.header_nav{
+    display: flex;
+    align-items: center;
+    background-color: white;
+
+    padding: 0;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.header_nav * {
+    font-size: 40px;
+}
+
+#main{
+    display: grid;
+    grid-template-rows: 2fr 7fr 1fr;
+}
+
+.body{
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    background-color: aqua;
+    border-radius: 100px;
+}
+
+.content_img{
+    background-color: white;
+    border-radius: 40px 0px 0px 40px;
+}
+
+.uploader{
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.content_log{
+    background-color: white;
+    border-radius: 0px 40px 40px 0px;
+}
+
+#info{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info_log1{
+    background-color: white;
+    border-radius: 0 0 0 80px;
+}
+
+.info_log2{
+    background-color:white;
+    border-radius: 0 80px 0 0;
+}
+
+#contact{
+    display: grid;
+    grid-template-rows: 8fr 1fr;
+}
+
+.owner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.intro{
+    background-color: antiquewhite;
+}
+
+.footer{
+    display: inline-block;
+    bottom: 0;
+    
+    width: 100vw;
+
+    background-color: white;
+}
+
+.footer:hover{
+    
+}
+
